@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Snowburst One', cursive;
+}
+
+.menu {
+	height: 100px;
+	background-color: snow; 
+	border: 5px	double darkgreen;
+	text-align: center;
+}
+
+.sidebar {
+	height: 500px;
+	background-color: darkred; 
+	width: 200px;
+	float: left;
+	padding: 20px;
+}
+
+.content {
+	width: 650px;
+	height: 500px;
+	background: url(../images/gift.jpg);
+	float: left;
+	padding: 20px;
+	color: azure;
+}
+
+.footer {
+	background-color: snow;
+	clear: both;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.clear:after {
+	content: ""; /*invisible element*/
+	clear: both;
+	display: block;
+}
+
+.container {
+	background: url(../images/snow.gif)
+}
+
+.column {
+	background-color: gold;
+	height: 160px;
+	width: 31%;
+	margin: 5px 1.16%;
+	float: left;
+	border: 5px double darkgreen;
+	border-radius: 10px;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 3px solid green;
+	border-radius: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 40px;
+	border: 2px solid black;
+	background-color: firebrick;
+
+}
+
+.username {
+	margin-top: 10px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden; /*this is important*/
+}
+
+.home, .faq, .about, .contact {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.home, .faq {
+	color: red;
+}
+
+.about, .contact {
+	color: green;
+}
+
+.section {
+	text-decoration: none;
+	font-size: 20px;
+	color: snow;
+	margin-bottom: 5px;
+}
